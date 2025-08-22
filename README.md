@@ -37,3 +37,20 @@ The ETL pipeline consists of three primary stages:
 2. Run the ETL pipeline:
    ```bash
    python etl_pipeline.py
+   
+3. Processed datasets will be stored in the processed_data/ directory:
+
+X_train.csv
+
+X_test.csv
+
+y_train.csv
+
+y_test.csv
+
+📂 Output Example
+processed_data/
+ ├── X_train.csv
+ ├── X_test.csv
+ ├── y_train.csv
+ └── y_test.csv
